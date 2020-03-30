@@ -3,7 +3,7 @@ void main()
 {
 	int a,b,c;
 	char op;
-	printf("请输入等式按Enter键结束计算\n");
+	printf("璇疯緭鍏ョ瓑寮忔寜Enter閿粨鏉熻绠梊n");
 	scanf("%d%c%d",&a,&op,&b);
 	switch(op)
 	{
@@ -20,7 +20,7 @@ void main()
 		printf("%d%c%d=%d\n",a,op,b,c);
 		break;
 		default:
-		printf("错误\n");
+		printf("麓铆脦贸\n");
 	}	
 	return 0;
 }
