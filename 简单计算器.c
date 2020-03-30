@@ -20,7 +20,7 @@ void main()
 		printf("%d%c%d=%d\n",a,op,b,c);
 		break;
 		default:
-		printf("´íÎó\n");
+		printf("错误\n");
 	}	
 	return 0;
 }
