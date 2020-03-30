@@ -5,17 +5,17 @@ int main()
 { 
     float a, b, c, s, area;
     
-    printf("Èı½ÇĞÎµÄÈıÌõ±ß·Ö±ğÎª£º\n"); 
+    printf("ä¸‰è§’å½¢çš„ä¸‰æ¡è¾¹åˆ†åˆ«ä¸ºï¼š\n"); 			
     scanf("%f%f%f", &a,&b,&c);
-    if (a<b+c,b<a+c,c<a+b)
+    if (a<b+c,b<a+c,c<a+b)  			//ifåˆ¤æ–­è¾“å…¥çš„ä¸‰è¾¹æ˜¯å¦èƒ½å¤Ÿæ„æˆä¸‰è§’å½¢
 	{
     	s=(a+b+c)/2.0;
-    	area=sqrt(s*(s-a)*(s-b)*(s-c));
-    	printf("Èı½ÇĞÎµÄÃæ»ıÎª%.2f\n", area);
+    	area=sqrt(s*(s-a)*(s-b)*(s-c));	         //è®¡ç®—ä¸‰è§’å½¢é¢ç§¯
+    	printf("ä¸‰è§’å½¢çš„é¢ç§¯ä¸º%.2f\n", area);
 	}
     else
 	{
-		printf("ÎŞ·¨¹¹³ÉÈı½ÇĞÎ\n");
+		printf("æ— æ³•æ„æˆä¸‰è§’å½¢\n");
 	}
     return 0;
 }
