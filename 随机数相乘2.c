@@ -3,7 +3,8 @@
 #include <time.h>
 int main()
 {
-	int a,b,d,i=0,n=0;
+	int a,b,d;
+	float i=0,n=0;
 	srand((unsigned)time(NULL));
 	char order='Y';
 	while(n>-1)
@@ -12,26 +13,27 @@ int main()
 		{
 			a=rand()%10;
 			b=rand()%10;
-			printf("请输入答案\n");
+			printf("璇疯緭鍏ョ瓟妗圽n");
 			printf("%d*%d=",a,b);
 			scanf("%d",&d);
 			if(a*b!=d)
 			{
-				printf("Wrong!\n");
+				printf("Wrong!\n杈撳叆鈥榊鈥欑户缁仛棰橈紝杈撳叆鈥楴鈥欑粨鏉熻繍绠梊n");
 				n++;
 			}
 			else
 			{
-				printf("Right!\n");
+				printf("Right!\n杈撳叆鈥榊鈥欑户缁仛棰橈紝杈撳叆鈥楴鈥欑粨鏉熻繍绠梊n");
 				i++;
 			}
 		}
 		else if(order=='N')
 		{
-			printf("总共做了%d道题\n",n+i);
-			printf("总共对了%d道题\n",i);
-			printf("得了%d分\n",i);
+			printf("鎬诲叡鍋氫簡%.1f閬撻\n",n+i);
+			printf("鎬诲叡瀵逛簡%.1f閬撻\n",i);
+			printf("寰椾簡%.1f%%鍒哱n",i/(n+i)*100);
 			n=0;
+			break;
 		}
 		order=getchar();
 	}
