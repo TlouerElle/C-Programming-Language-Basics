@@ -4,12 +4,12 @@
 int main()
 {
 	int a[9];     				
-	int max=0,min=10000;
 	for (int i=0;i<10;i++)
 	{
-		printf("ÇëÊäÈëµÚ%d¸öÊı£º", i+1);
+		printf("è¯·è¾“å…¥ç¬¬%dä¸ªæ•°ï¼š", i+1);
 		scanf("%d",&a[i]);
 	}
+	int max=a[0],min=a[0];
 	for (int i=0;i<10;i++)
 	{
 		if (max<a[i])
@@ -29,7 +29,7 @@ int main()
 			min=a[i];
 		}
 	}
-	printf("×î´óÖµÎª%d\n",max);
-	printf("×îĞ¡ÖµÎª%d\n",min);
+	printf("æœ€å¤§å€¼ä¸º%d\n",max);
+	printf("æœ€å°å€¼ä¸º%d\n",min);
 	return 0;
 }
