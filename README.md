@@ -5,6 +5,6 @@ It's very naive and fun,don't make fun of me.
 Last all thank you.  
 
   # C语言基础
-所有我写的代码作业。  
-有问题请通知。  
+所有我写的代码作业  
+有问题请留言  
 谢谢
