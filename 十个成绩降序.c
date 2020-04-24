@@ -6,7 +6,7 @@ int main()
 	int a[10],t;
 	for (int i=0;i<10;i++)
 	{
-		printf("ÇëÊäÈëµÚ%d¸öÊı£º", i+1);
+		printf("è¯·è¾“å…¥ç¬¬%dä¸ªæ•°ï¼š", i+1);
 		scanf("%d",&a[i]);
 	}
 	for (int j=0;j<9;j++)
@@ -31,10 +31,10 @@ int main()
 	for(int i=0;i<10;i++)
 	{
 		if (a[i]<60)
-			{
-				n++;
-			}
+		{
+			n++;
+		}
 	}
-	printf("²»¼°¸ñ%dÈË\n",n-1);	
+	printf("ä¸åŠæ ¼%däºº\n",n-1);	
 	return 0;
 }
