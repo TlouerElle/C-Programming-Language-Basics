@@ -35,6 +35,6 @@ int main()
 			n++;
 		}
 	}
-	printf("不及格%d人\n",n-1);	
+	printf("不及格%d人\n",n);	
 	return 0;
 }
