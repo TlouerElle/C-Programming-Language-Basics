@@ -3,7 +3,7 @@
 #include <time.h>
 int main()
 {
-	int a[9];     				
+	int a[9],n,m;     				
 	for (int i=0;i<10;i++)
 	{
 		printf("请输入第%d个数：", i+1);
@@ -14,7 +14,8 @@ int main()
 	{
 		if (max<a[i])
 		{
-			max=a[i];	
+			max=a[i];
+			n=i+1;	
 		}
 		else
 		{
@@ -27,9 +28,10 @@ int main()
 		else
 		{
 			min=a[i];
+			m=i+1;
 		}
 	}
-	printf("最大值为%d\n",max);
-	printf("最小值为%d\n",min);
+	printf("最大值为%d,是第%d个数\n",max,n);
+	printf("最小值为%d,是第%d个数\n",min,m);
 	return 0;
 }
