@@ -5,7 +5,7 @@ int main()
 {
 	srand((unsigned)time(NULL));
 	int n,m;
-	printf("ÇëÊäÈën:");
+	printf("è¯·è¾“å…¥n:");
 	scanf("%d",&n);
 	int a[n];
 	for (int i=0;i<n;i++)
@@ -14,7 +14,7 @@ int main()
 		printf("%d ",a[i]);
 	}
 	printf("\n");
-	printf("ÇëÊäÈëÒª²éÕÒµÄÊı£º");
+	printf("è¯·è¾“å…¥è¦æŸ¥æ‰¾çš„æ•°ï¼š");
 	scanf("%d",&m);
 	int b=0,c=0;
 	for (int i=0;i<n;i++)
@@ -27,9 +27,9 @@ int main()
 			c=i;
 		}
 	}
-	if((b=c))
+	if(b==c)
 	{
-		printf("ÕÒµ½ÒÑÉ¾³ı:");
+		printf("æ‰¾åˆ°å·²åˆ é™¤:");
 		for (int i=0;i<b;i++)
 		{
 			printf("%d ",a[i]);
@@ -42,7 +42,7 @@ int main()
 	}
 	else
 	{
-		printf("¸ÃÊı²»´æÔÚ\n");
+		printf("è¯¥æ•°ä¸å­˜åœ¨\n");
 	}	
 	return 0;
 }
